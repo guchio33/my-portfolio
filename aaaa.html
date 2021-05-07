@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+</head>
+<body>
+ 
+    <input type="text" id="input">
+    <button id="button">検索</button>
+    <img id="quiz-image" />
+    <div id="display"　class="display">
+ 
+ <script>
+     const input=document.getElementById("input")
+     const serchbutton=document.getElementById("button")
+     const display=document.getElementById("display")
+     const quizImage = document.getElementById("quiz-image")
+
+     serchbutton.onclick=function(){
+         const text=input.value
+
+         if(text=="趣味は何ですか？"){
+             display.textContent="ゲーム、漫画、映画鑑賞、旅行、和太鼓です"
+         }
+         else if(text=="好きな食べ物は？"){
+            display.textContent="焼きたてのメロンパン！　外のサクサク感と中のふわっと感のギャップに萌えますね。"
+         }
+         else if(text=="好きなゲームは何ですか？"){
+            display.textContent="スプラトゥーンです！！！。　トータル2000時間はやっているかも…？"
+            quizImage.src="images.jpeg"
+         }
+         else if(text=="何時に寝ますか？"){
+            display.textContent="深夜２時です。　朝は起きれません。"
+         }
+         else if(text=="誕生日はいつですか？"){
+            display.textContent="３月３日です。誕生日プレゼント待ってます。　"
+         }
+         else if(text=="今日は何日ですか？"){
+            display.textContent="今日は2021年５月8日です。"
+         }
+         else if(text=="今までの武勇伝は？"){
+            display.textContent="ガラスのドアに突進した事。ガラスのドアがあった事忘れていた模様。"
+         }
+         else if(text=="最近観た映画は？"){
+            display.textContent="マネーボール。　プロ野球チームを統計学で勝利に導く映画"
+         }
+         else if(text=="最近買った高い物は何ですか？"){
+            display.textContent="桶太鼓を買いました。　皆さんもmy桶太鼓どうですか？"
+         }
+         else if(text=="How are you?"){
+            display.textContent="I'm fine!!!!!!"
+         }
+         else if(text=="好きな和太鼓チームはどこですか？"){
+            display.textContent="最近は鼓童にハマっています。　しかし、過酷な環境なので入りたいとは思いません笑"
+         }
+         else if(text=="好きなポケモンは何ですか？"){
+            display.textContent="ヌマクローですかね・・・。　何と言っても、あの無表情かわいいですよね。"
+         }
+         else if (text == "a") {
+            console.log("aaaaaaaa");
+        }
+     }
+
+ </script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+/*-----header----------------------------------*/
+.main-nav {
+  display: flex;
+  font-size: 1.6rem;
+  margin-top: 36px;
+  text-transform: uppercase;
+  list-style: none;
+}
+.main-nav li {
+  margin-left: 20px;
+}
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
+/*-----------body-----------------------------*/
+body {
+  line-height: 1.7;
+}
+
+#home {
+  background-image: url(taiko1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 70vh;
+}
+
+.page-title {
+  font-size: 50px;
+  justify-content: bottom;
+  align-items: bottom;
+  text-align: right;
+  color: white;
+  position: bottom;
+}
+/*--自己紹介----------------------*/
+.jikosyoukai {
+  margin-top: 50px;
+  text-align: center;
+}
+/*自分の画像*/
+.circle {
+  background-image: url(my.jpg);
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+  background-size: 200px 200px;
+  background-position: center bottom;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bun {
+  margin-top: 30px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.situmon {
+  text-align: center;
+  margin-top: 0px;
+  width: 100％;
+  height: 500px;
+  padding: 7px 0 14px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  background-color: rgb(255, 176, 29);
+}
+.situmon h2 {
+  font-size: 35px;
+  padding-top: 30px;
+  color: white;
+}
+
+.input {
+  margin-top: 30px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 3px;
+  border: 2px solid #ddd;
+  width: 300px;
+}
+
+.button {
+  background-color: #97cdf3;
+  width: 50px;
+  border-radius: 3px;
+  border: 2px solid #ddd;
+  color: white;
+}
+
+.clear {
+  background-color: white;
+  border-radius: 3px;
+  border: 2px solid #ddd;
+  width: 55px;
+}
+
+.display {
+  background-color: white;
+  width: 100px;
+  height: 50px;
+  font-size: 30px;
+  color: white;
+}
