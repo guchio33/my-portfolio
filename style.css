@@ -25,7 +25,7 @@ body {
 }
 
 #home {
-  background-image: url(taiko1.png);
+  background-image: url(images/taiko1.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -48,7 +48,7 @@ body {
 }
 /*自分の画像*/
 .circle {
-  background-image: url(my.jpg);
+  background-image: url(images/my.jpg);
   width: 180px;
   height: 180px;
   border-radius: 100%;
